@@ -3950,6 +3950,17 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+.nav-link, .fa-cart-shopping {
+    font-size: 25px;
+    margin-left: 10px;
+    color:#e6a91d;
+}
+
+.nav-link .fa-cart-shopping:hover{
+    color: #fee7aa;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
@@ -11406,7 +11417,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.48) 0%, rgba(247, 170, 2, 0.48) 100%), url("../assets/img/bg-home.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.60) 0%, rgba(247, 170, 2, 0.48) 100%), url("../assets/img/bg-home.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
