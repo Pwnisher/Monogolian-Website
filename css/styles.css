@@ -11437,7 +11437,7 @@ header.masthead h1, header.masthead .h1 {
 .about-info{
   width: 500px;
   margin-top: -300px;
-  text-align: left;
+  text-align: right;
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
