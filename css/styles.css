@@ -41,7 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 244, 98, 58;
+  --bs-primary-rgb: 230, 169, 29; /*primary (golden yellow)*/
+  --bs-primary1-rgb: 242, 212, 142;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -3030,14 +3031,15 @@ textarea.form-control-lg {
   opacity: 0.65;
 }
 
+/*Find Out Button*/
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #e6a91d;
   border-color: #f4623a;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
+  background-color: #ebba4a;
   border-color: #c34e2e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -7459,7 +7461,7 @@ textarea.form-control-lg {
 
 .px-4 {
   padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
+  padding-left: 10.5rem !important;
 }
 
 .px-5 {
@@ -7810,6 +7812,11 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-primary1 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary1-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11319,7 +11326,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #f0cb77;
   opacity: 1;
 }
 
@@ -11392,7 +11399,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(247, 170, 2, 0.48) 0%, rgba(247, 170, 2, 0.48) 100%), url("../assets/img/bg-home.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.48) 0%, rgba(247, 170, 2, 0.48) 100%), url("../assets/img/bg-home.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11419,6 +11426,18 @@ header.masthead h1, header.masthead .h1 {
   header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
   }
+}
+
+.about-pic {
+  width: 400px;
+  height: 300px;
+  margin-left:600px;
+}
+
+.about-info{
+  width: 500px;
+  margin-top: -300px;
+  text-align: left;
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
