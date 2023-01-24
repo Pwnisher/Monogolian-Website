@@ -21,8 +21,8 @@
 					<li class="about"><a href = "#about"> About </a></li>
 					<li class="services"><a href = "#services"> Services </a></li>
 					<li class="contact"><a href = "#contact"> Contact </a></li>
-					<li><a href="index2.html"><h1 class="button-login">LOG IN </h1></a></li>
-
+					<li><a href="indexlg.php"><h1 class="button-login">LOG IN </h1></a></li>
+					
 				</ul>
 		</header>
 	<div class="background-image">

@@ -1,3 +1,9 @@
+<?php 
+session_start();
+
+if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
+?>
+
 
 <html lang="en">
 <head>
@@ -208,3 +214,11 @@
 	</script>
 </body>
 </html>
+
+<?php
+}
+else {
+	header("Location: indexlg.php");
+	exit();
+}
+?>
