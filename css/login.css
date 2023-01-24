@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Nanum+Gothic:wght@400;700;800&display=swap');
-
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -7,116 +5,21 @@
 }
 
 .container{
-	float: right;
 	position: relative;
+	float: right;
+	top: 70px;
 	right: 100px;
-	border-radius: 10px;
-	box-shadow: 0 15px 15px rgba(0, 0, 0,0.5);
-	background: #fff;
 	width: 400px;
 	height: 500px;
-
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+	background: #fff;
+}
+p{
+	padding: 2rem;
 }
 
-h1, .head{
-	font-family: "Nanum Gothic", sans-serif;
-	font-weight: 400px;
-	font-size: 20px;
-	margin: 30px;
-}
-
-.login{
-	border: 1px solid black;
-	border-radius: 5px;
-	margin-left: 30px;
-	width: 340px;
-	height: 40px;
-	opacity: 50%;
-}
-.password{
-	border: 1px solid black;
-	border-radius: 5px;
-	margin: 30px;
-	width: 340px;
-	height: 40px;
-	opacity: 50%;
-}
-
-a, .button{
-	font-family: "Nanum Gothic", sans-serif;
-	font-weight: 500px;
-	font-size: 15px;
-	color: white;
-}
-.button{
+input, .login{
 	position: relative;
-	top: 7px;
-	text-decoration: none;
-	border-radius: 20px;
-	padding: 13px;
-	padding-left: 145px;
-	padding-right: 145px;
-	margin-left: 30px;
-	width: 300px;
-	height: 40px;
-	background: #e6a91d;
-}
-
-.button:hover{
-	background: #ebba4a;
-}
-
-.options ul{
-	margin: 20px;
-	display: inline-flex;
-}
-
-.options li{
-	margin-top: 15px;
-	margin-left: 30px;
-	list-style: none;
-}
-
-.options ul li a{
-	font-size: 13px;
-	color: blue;
-	text-decoration: none;
-}
-
-.social-media{
-	border: 1px solid black;
-	border-radius: 20px;
-	margin: 30px;
-	width: 340px;
-	height: 40px;
-}
-.social-media ul li {
-	list-style-type: none;
-}
-
-.social-media ul li a {
+	margin: 15px;
 	display: flex;
-	justify-content: center;
-	text-decoration: none;
-	color: blue;
-	margin: 5px;
-}
-
-body{ 
-  overflow: hidden;
-  padding-top: 5rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: url("../assets/img/newest .jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.logo{
-	position: relative;
-	left: 100px;
-	top: 40px;
-	width: 500px;
-	height: 400px;
 }
