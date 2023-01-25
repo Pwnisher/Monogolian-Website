@@ -18,9 +18,9 @@
 				<img class = "logo" src="./assets/img/logo.png">
 		
 				<ul>
-					<li class="about"><a href = "#about"> About </a></li>
-					<li class="services"><a href = "#services"> Services </a></li>
-					<li class="contact"><a href = "#contact"> Contact </a></li>
+					<li class="links"><a href = "#about"> About </a></li>
+					<li class="links"><a href = "#services"> Services </a></li>
+					<li class="links"><a href = "#contact"> Contact </a></li>
 					<li><a href="indexlg.php"><h1 class="button-login">LOG IN </h1></a></li>
 					
 				</ul>
