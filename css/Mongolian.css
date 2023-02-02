@@ -32,6 +32,7 @@ hr.divider {
   background-color: #f0cb77;
   opacity: 1;
 }
+
 hr.divider-light{
  background-color: #fff;
  border: #fff;
@@ -70,6 +71,10 @@ header.sticky{
 	background: #fff;
 }
 
+header.sticky li.active a{
+	color: #f9a03f;
+}
+
 
 
 header ul {
@@ -105,7 +110,6 @@ header ul li a{
 	background-size: cover;
 	
 }
-
 
 header li a:hover{
 	color: #f9a03f;
@@ -318,7 +322,7 @@ h1.button-login:hover{
 
 .carousel-item img{
 	width: 25rem;
-	height: 20rem;
+	height: 25rem;
 }
 
 
@@ -501,6 +505,7 @@ h1.button-submit{
 h1.button-submit:hover{
 		background-color: #ebba4a;
 }
+
 
 /*----------------------- FOOTER SECTION --------------------------*/
 .footer{

@@ -19,18 +19,24 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 
 	<div id="loading"></div>
 <!--------------------------- HEADER --------------------------------->
-
+<div id ="top">
 		<header>
-				<img class = "logo" src="./assets/img/logo.png">
+				<a href = "#top"><img class = "logo" src="./assets/img/logonobg.png"></a>
 		
 				<ul>
-					<li class="about"><a href = "#about"> About </a></li>
-					<li class="services"><a href = "#services"> Services </a></li>
-					<li class="contact"><a href = "#contact"> Contact </a></li>
+					<li class="links"><a href = "#about"> About </a></li>
+					<li class="links"><a href = "#services"> Services </a></li>
+					<li class="links"><a href = "#Book"> Book</a></li>
+					<li class="links"><a href = "#contact"> Contact </a></li>
 					<li><a href = "#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+					<li>
+						<a href = "index.php">Log Out </a>
+						
+					</li>
 
 				</ul>
 		</header>
+
 	<div class="background-image">
 		<div class = "caption-item">
 				<ul>
@@ -47,6 +53,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 				</ul>
 		</div>
 	</div>
+</div>
 <!-------------------------- PICTURES -------------------------------
 
 <section class="container">
@@ -161,22 +168,19 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 				</ul>
 			</div>
 		</div>
-
 	</div>
 </section>
 
 <!--------------------------- UNKNOWN SECTION  ---------------------------->
-<section id="unknown">
-
+<section id="Book">
 		<div class="container-3">
 			<ul>
 				<li><h1 class="title"> Start Your Reservation! </h1></li>
-				<li><a href="login.html"><h1 class = "button-book">BOOK NOW!</h1></a></li>
+				<li><a href="#"><h1 class = "button-book">BOOK NOW!</h1></a></li>
 			</ul>
 		</div>
-	
 </section>
-
+	
 <!--------------------------- CONTACT SECTION  ---------------------------->
 
 

@@ -2,9 +2,15 @@
 <html>
 <head>
 	<title>REGISTER</title>
-	<link rel="stylesheet" type="text/css" href="./css/signupstyle.css">
+	<link rel="stylesheet" type="text/css" href="./csslg/signupstyle.css">
 </head>
 <body>
+	<video autoplay loop muted plays-inline>
+		<source src="./assets/video/mongolian.mp4" type="video/mp4" class="back-video">
+	
+     </video>
+     
+     <div class="heroSU">
      <form action="signupCheck.php" method="post">
      	<h2>REGISTER</h2>
      	<?php if (isset($_GET['error'])) { ?>
@@ -96,5 +102,6 @@
      	<button type="submit">Sign Up</button>
      	<a href="indexlg.php" class="su">Already have an account?</a>
      </form>
+	</div>
 </body>
 </html>

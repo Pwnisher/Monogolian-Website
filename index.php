@@ -15,11 +15,12 @@
 <!--------------------------- HEADER --------------------------------->
 
 		<header>
-				<img class = "logo" src="./assets/img/logo.png">
+				<img class = "logo" src="./assets/img/logonobg.png">
 		
 				<ul>
 					<li class="links"><a href = "#about"> About </a></li>
 					<li class="links"><a href = "#services"> Services </a></li>
+					<li class="links"><a href = "#book"> Book</a></li>
 					<li class="links"><a href = "#contact"> Contact </a></li>
 					<li><a href="indexlg.php"><h1 class="button-login">LOG IN </h1></a></li>
 					
@@ -160,12 +161,12 @@
 </section>
 
 <!--------------------------- UNKNOWN SECTION  ---------------------------->
-<section id="unknown">
+<section id="Book">
 
 		<div class="container-3">
 			<ul>
 				<li><h1 class="title"> Start Your Reservation! </h1></li>
-				<li><a href="login.html"><h1 class = "button-book">BOOK NOW!</h1></a></li>
+				<li><a href="indexlg.php"><h1 class = "button-book">BOOK NOW!</h1></a></li>
 			</ul>
 		</div>
 	
