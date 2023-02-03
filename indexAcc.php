@@ -13,6 +13,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 
 	<link rel="stylesheet" href="css/Mongolian.css">
 	<script src="https://kit.fontawesome.com/d965d128b9.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 </head>
 <body>
 
@@ -118,9 +119,24 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 		
 		</div>
 				
-		<div class = "carousel-item">
-				<img src="./assets/vegetables/ingre.jpg">
-		</div>
+		<div class="card">
+  <div class="item item--1">
+    <span class="quantity"> 8+ </span>
+    <span class="text text--1"> Vegetables </span>
+  </div>
+  <div class="item item--2"> 
+    <span class="quantity"> 5+ </span>
+    <span class="text text--2"> Meats </span>
+  </div>
+  <div class="item item--3">
+    <span class="quantity"> 4+ </span>
+    <span class="text text--3"> Sauces </span>
+  </div>
+  <div class="item item--4">
+    <span class="quantity"> 30+ </span>
+    <span class="text text--4"> Animations </span>
+  </div>
+</div>
 
 	</div>
 
@@ -138,33 +154,52 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 		<div class="caption-item-3">
 			<div class = "box">
 				<ul>
-					<li><i class="fa-solid fa-utensils"></i></li>
-					<li><h1>Savory Dishes</h1></li>
-					<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+					<li><lord-icon
+    						src="https://cdn.lordicon.com/ibzzbohe.json"
+    						trigger="hover"
+    						colors="outline:#121331, primary:#f9a03f,tertiary:#92140c"
+    						style="width:80px;height:80px">
+						</lord-icon></li>
+					<li><h1>Savory<br> Dishes</h1></li>
+					<li><p>We offers a variety of delicious and carefully prepared foods where options are customizable to meet individual tastes and dietary needs.</p></li>
 				</ul>
 			</div>
 
 			<div class = "box">
 				<ul>
-					<li><i class="fa-solid fa-user"></i></li>
+					<li><lord-icon
+    						src="https://cdn.lordicon.com/tafnmaar.json"
+    						trigger="hover"
+    						colors="primary:#f9a03f,secondary:#ebe6ef,tertiary:#121331"
+    						style="width:80px;height:80px">
+						</lord-icon></li>
 					<li><h1>Kitchen Masters</h1></li>
-					<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+					<li><p>Cooks in Mongolian Grill are experienced and skilled in creating diverse, flavorful, and visually appealing dishes to delight guests.</p></li>
 				</ul>
 			</div>
 
 			<div class = "box">
 				<ul>
-					<li><i class="fa-solid fa-bell-concierge"></i></li>
-					<li><h1>Ensured Quality</h1></li>
-					<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+					<li><lord-icon
+    					src="https://cdn.lordicon.com/ssrjvcah.json"
+    					trigger="hover"
+    					colors="primary:#ebe6ef,secondary:#121331,tertiary:#c71f16,quaternary:#ffc738"
+    					style="width:80px;height:80px">
+						</lord-icon></li>
+					<li><h1>Ensured<br> Quality</h1></li>
+					<li><p>Our service quality strives to consistently provide prompt, professional, and friendly service to enhance the dining experience for guests.</p></li>
 				</ul>
 			</div>
 
 			<div class = "box">
 				<ul>
-					<li><i class="fa-solid fa-medal"></i></li>
+					<li><lord-icon
+    						src="https://cdn.lordicon.com/lcucqigi.json"
+    						trigger="hover"
+    						style="width:80px;height:80px">
+						</lord-icon></li>
 					<li><h1>Satisfaction Guaranteed</h1></li>
-					<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+					<li><p>Our catering service guarantees customer satisfaction through expertly crafted cuisine and exceptional service, ensuring a truly enjoyable and memorable event for all guests.</p></li>
 				</ul>
 			</div>
 		</div>

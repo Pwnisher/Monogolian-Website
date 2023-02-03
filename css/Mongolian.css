@@ -320,9 +320,89 @@ h1.button-login:hover{
 	list-style-type: none;
 }
 
-.carousel-item img{
-	width: 25rem;
-	height: 25rem;
+.card {
+ width: 500px;
+ height: 380px;
+ color: white;
+ display: flex; /*grid*/
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ gap: 10px;
+ overflow: visible;
+}
+
+.card .item {
+ border-radius: 10px;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-self: stretch;
+ align-items: center;
+ justify-content: center;
+}
+
+.item:hover {
+ transform: scale(0.95);
+ transition: all 0.3s;
+ filter: brightness(1.0);
+}
+
+.item {
+ width: 120px;
+ height: 120px;
+ margin-bottom: 7px;
+}
+
+.item--1 {
+ background-image: url("../assets/foods/ingre.jpg");
+ background-size: cover;
+ filter: brightness(0.4);
+}
+
+.item--2 {
+ background-image: url("../assets/foods/meat.jpg");
+ background-size: cover;
+ filter: brightness(0.4);
+}
+
+.item--3 {
+ background-image: url("../assets/foods/sauce.jpg");
+ background-size: cover;
+ filter: brightness(0.4);
+}
+
+.item--4 {
+ background-image: url("../assets/foods/ingre.jpg");
+ background-size: cover;
+ filter: brightness(0.4);
+}
+
+.quantity {
+ font-size: 25px;
+ font-weight: 600;
+}
+
+.text {
+ font-size: 12px;
+ font-family: inherit;
+ font-weight: 600;
+}
+
+.text--1 {
+ color: rgba(149,149,255,1);
+}
+
+.text--2 {
+ color: rgba(252,161,71,1);
+}
+
+.text--3 {
+ color: rgba(66,193,110,1);
+}
+
+.text--4 {
+ color: rgba(220,91,183,1);
 }
 
 
