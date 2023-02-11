@@ -11,7 +11,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mongolian Grill the Original</title>
 
-	<link rel="stylesheet" href="css/indexAccStyle.css">
+	<link rel="stylesheet" href="css/indexAccStyles.css">
 	<script src="https://kit.fontawesome.com/d965d128b9.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 </head>
@@ -213,7 +213,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 		</div>
 	</div>
 </section>
-
+<br>
 <!--------------------------- UNKNOWN SECTION  ---------------------------->
 <section id="Book">
 		<div class="container-3">
