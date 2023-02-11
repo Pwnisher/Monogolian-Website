@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Merriweather+Sans&family=News+Cycle&family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 
 
@@ -331,81 +332,89 @@ h1.button-login:hover{
  overflow: visible;
 }
 
-.card .item {
+.card .card-item {
  border-radius: 10px;
  width: 100%;
  height: 100%;
  display: flex;
  flex-direction: column;
- align-self: stretch;
- align-items: center;
+ align-items: flex-end;
  justify-content: center;
 }
 
-.item:hover {
+.card-item:hover {
  transform: scale(0.95);
  transition: all 0.3s;
- filter: brightness(1.0);
+ filter: brightness(0.4);
 }
 
-.item {
+.card-item {
  width: 120px;
  height: 120px;
  margin-bottom: 7px;
 }
 
+.itemLabel1, .itemLabel2, .itemLabel3, .itemLabel4 {
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .item--1 {
  background-image: url("../assets/foods/ingre.jpg");
- /*background-size: cover;
- background-position: 50% 0;*/
- 
- filter: brightness(0.4);
+ background-size: cover;
+ background-position: 50% 0;
+}
+
+.item--1:hover .itemLabel1 {
+	opacity: 1;
 }
 
 .item--2 {
  background-image: url("../assets/foods/meat.jpg");
  background-size: cover;
- filter: brightness(0.4);
+ background-position: 50% 0;
+}
+.item--2:hover .itemLabel2 {
+  opacity: 1;
 }
 
 .item--3 {
  background-image: url("../assets/foods/sauce.jpg");
  background-size: cover;
- filter: brightness(0.4);
+ background-position: 50% 0;
+}
+.item--3:hover .itemLabel3 {
+  opacity: 1;
 }
 
 .item--4 {
- background-image: url("../assets/foods/ingre.jpg");
+ background-image: url("../assets/foods/variations.jpg");
  background-size: cover;
- filter: brightness(0.4);
+ background-position: 60% 0;
 }
-
-.quantity {
- font-size: 25px;
- font-weight: 600;
+.item--4:hover .itemLabel4 {
+  opacity: 1;
 }
 
 .text {
- font-size: 12px;
- font-family: inherit;
- font-weight: 600;
-}
-
-.text--1 {
- color: rgba(149,149,255,1);
-}
-
-.text--2 {
- color: rgba(252,161,71,1);
-}
-
-.text--3 {
- color: rgba(66,193,110,1);
-}
-
-.text--4 {
- color: rgba(220,91,183,1);
-}
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  -webkit-text-stroke: 1.5px black;
+  padding: 16px 32px;
+ }
+ .subtext {
+ 	margin-bottom: 400px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+ }
 
 
 
@@ -469,10 +478,12 @@ h1.button-login:hover{
 
 /*-----------------------  UNKNOWN SECTION --------------------------*/
 .container-3{
-	background-color: #f2d48e;
+	background-image: url("../assets/img/wave.svg");
+	background-size: cover;
+	background-color: white;
 	padding: 5rem;
 	width: 100%;
-	height: 48vh;
+	height: 50vh;
 }
 h1.title{
 	margin: auto;

@@ -11,7 +11,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mongolian Grill the Original</title>
 
-	<link rel="stylesheet" href="css/Mongolian.css">
+	<link rel="stylesheet" href="css/indexAccStyle.css">
 	<script src="https://kit.fontawesome.com/d965d128b9.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 </head>
@@ -120,23 +120,31 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 		</div>
 				
 		<div class="card">
-  <div class="item item--1">
-    <span class="quantity"> 8+ </span>
-    <span class="text text--1"> Vegetables </span>
-  </div>
-  <div class="item item--2"> 
-    <span class="quantity"> 5+ </span>
-    <span class="text text--2"> Meats </span>
-  </div>
-  <div class="item item--3">
-    <span class="quantity"> 4+ </span>
-    <span class="text text--3"> Sauces </span>
-  </div>
-  <div class="item item--4">
-    <span class="quantity"> 30+ </span>
-    <span class="text text--4"> Animations </span>
-  </div>
-</div>
+		  <div class="card-item item--1">
+		    <div class="itemLabel1">
+		    	<div class="text">9+</div>
+		    	<span class="subtext">Vegetables</span>
+		    </div>
+		  </div>
+		  <div class="card-item item--2"> 
+		    <div class="itemLabel2">
+		    	<div class="text">6+</div>
+		    	<span class="subtext">Meats</span>
+		    </div>
+		  </div>
+		  <div class="card-item item--3">
+		    <div class="itemLabel3">
+		    	<div class="text">5+</div>
+		    	<span class="subtext">Sauces</span>
+		    </div>
+		  </div>
+		  <div class="card-item item--4">
+		    <div class="itemLabel4">
+		    	<div class="text">28+</div>
+		    	<span class="subtext">Variations</span>
+		    </div>
+		  </div>
+		</div>
 
 	</div>
 

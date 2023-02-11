@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mongolian Grill the Original</title>
 
-	<link rel="stylesheet" href="css/indexstyle.css">
+	<link rel="stylesheet" href="css/indexStyle.css">
 	<script src="https://kit.fontawesome.com/d965d128b9.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 </head>
@@ -105,37 +105,36 @@
 
 				The Mongolian Grill the Original offers a truly one-of-a-kind culinary experience that is sure to delight the senses and satisfy even the most discerning palate.</p>
 			</ul>
-		
 		</div>
+
 		<div class="card">
-  <div class="item item--1">
-    <div class="itemLabel1">
-    	<div class="text">9+</div>
-    	<span class="subtext">Vegetables</span>
-    </div>
-  </div>
-  <div class="item item--2"> 
-    <div class="itemLabel2">
-    	<div class="text">6+</div>
-    	<span class="subtext">Meats</span>
-    </div>
-  </div>
-  <div class="item item--3">
-    <div class="itemLabel3">
-    	<div class="text">5+</div>
-    	<span class="subtext">Sauces</span>
-    </div>
-  </div>
-  <div class="item item--4">
-    <div class="itemLabel4">
-    	<div class="text">28+</div>
-    	<span class="subtext">Variations</span>
-    </div>
-  </div>
-</div>
+		  <div class="card-item item--1">
+		    <div class="itemLabel1">
+		    	<div class="text">9+</div>
+		    	<span class="subtext">Vegetables</span>
+		    </div>
+		  </div>
+		  <div class="card-item item--2"> 
+		    <div class="itemLabel2">
+		    	<div class="text">6+</div>
+		    	<span class="subtext">Meats</span>
+		    </div>
+		  </div>
+		  <div class="card-item item--3">
+		    <div class="itemLabel3">
+		    	<div class="text">5+</div>
+		    	<span class="subtext">Sauces</span>
+		    </div>
+		  </div>
+		  <div class="card-item item--4">
+		    <div class="itemLabel4">
+		    	<div class="text">28+</div>
+		    	<span class="subtext">Variations</span>
+		    </div>
+		  </div>
+		</div>
 
 	</div>
-
 </section>
 
 <!--------------------------- SERVICES SECTION  ---------------------------->
@@ -202,10 +201,9 @@
 
 	</div>
 </section>
-
+<br>
 <!--------------------------- UNKNOWN SECTION  ---------------------------->
 <section id="Book">
-
 		<div class="container-3">
 			<ul>
 				<li><h1 class="title"> Start Your Reservation! </h1></li>
