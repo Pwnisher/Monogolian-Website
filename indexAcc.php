@@ -20,22 +20,29 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 
 	<div id="loading"></div>
 <!--------------------------- HEADER --------------------------------->
-<div id ="top">
+<section id ="top">
 		<header>
 				<a href = "#top"><img class = "logo" src="./assets/img/logonobg.png"></a>
 		
-				<ul>
-					<li class="links"><a href = "#about"> About </a></li>
-					<li class="links"><a href = "#services"> Services </a></li>
+			<ul>
+					<li class="links"></li>
+					<li class="links"><a href="#about">About</a></li>
+					<li class="links"><a href="#services">Service</a></li>
 					<li class="links"><a href = "#Book"> Book</a></li>
-					<li class="links"><a href = "#contact"> Contact </a></li>
-					<li><a href = "#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-					<li>
-						<a href = "index.php">Log Out </a>
-						
+					<li class="links"><a href="#contact">Contact</a></li>
+					<li class="links"><a href="#contact"><i class="fa-solid fa-cart-shopping"></i></a>
+						<ul class="dropdown center">
+							<li><a href="#">Reservation</a></li>
+							<li><a href="#">Update</a></li>
+						</ul>
 					</li>
-
-				</ul>
+					<li class = "bg"><a href="#"><?php echo $_SESSION['fname']; ?></a>
+						<ul class="dropdown">
+							<li><a href="index.php">logout</a></li>
+							<li><a href="">profile</a></li>
+						</ul>
+					</li>
+			</ul>
 		</header>
 
 	<div class="background-image">
@@ -46,51 +53,13 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 	
 					<li><p>The Mongolian Grill the Original is a dining experience like no other,<br>renowned for its unique and interactive approach to preparing meals.</p></li>
 
-					<li>
-						<div class = "button">
-							<a href="#about"> Find out more </a>
-						</div>
+					<li><a href="#about">
+						<h1 class = "button-book button-book-modif">FIND OUT MORE</h1></a>
 					</li>
 				</ul>
 		</div>
 	</div>
-</div>
-<!-------------------------- PICTURES -------------------------------
-
-<section class="container">
-	<div class="slider-wrapper">
-		<div class="slider">
-
-			<div class = "slider-1">
-				<p class="paragraph-1">Elevating your event, one <br>
-				   bite at a time
-				</p>
-				
-				<div class="line">  </div>
-				<p class="paragraph-2">
-					The Mongolian Grill the Original is a dining experience like no other, <br>
-					renowed for its unique and interactive approach to preparing meals
-				</p>
-				<img id = "slide-1" src="./assets/img/picture1.jpg" alt = "picture of the set up in Mongolian grill">
-			</div>
-
-			<div class = "slider-2">		
-				<img id = "slide-2" src="./assets/img/picture2.jpg" alt = "picture of the set up in Mongolian grill">
-			</div>
-
-			<div class = "slider-3">
-				<img id = "slide-3" src="./assets/img/picture3.jpg" alt = "picture of the set up in Mongolian grill">	
-			</div>
-		</div>
-		<div class="slider-nav">
-
-			<a href="#slide-1"></a>
-			<a href="#slide-2"></a>
-			<a href="#slide-3"></a>
-		</div>
-	</div>
 </section>
--->
 <!--------------------------- ABOUT SECTION ---------------------------->
 <section id="about">
 
@@ -110,15 +79,20 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 <!--------------------------- ABOUT second SECTION ---------------------------->
 	<div class="container-1">
 		<div class = "caption-item-2">
+
+			<div class = "box box-modif">
 			<ul>
 				<li><h2>Savor the diversity of flavors, made to your likings</h2></li>
 				<li><p>Guests are presented with a wide array of raw ingredients, including thinly sliced meats such as pork, chicken, beef, shrimp, squid, and squid balls, as well as a variety of vegetables including onion, onion leaves, carrots, cabbage, lettuce, bean sprouts, bell peppers, and turnip. <br><br> 
 
-				The Mongolian Grill the Original offers a truly one-of-a-kind culinary experience that is sure to delight the senses and satisfy even the most discerning palate.</p>
+				The Mongolian Grill the Original offers a truly one-of-a-kind culinary experience that is sure to delight the senses and satisfy even the most discerning palate.</p></li>
 			</ul>
+			</div>
+
 		
-		</div>
 				
+		<div class="box box-modif">
+
 		<div class="card">
 		  <div class="card-item item--1">
 		    <div class="itemLabel1">
@@ -145,8 +119,10 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 		    </div>
 		  </div>
 		</div>
-
+		</div>
+		</div>
 	</div>
+
 
 </section>
 
@@ -181,7 +157,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
     						colors="primary:#f9a03f,secondary:#ebe6ef,tertiary:#121331"
     						style="width:80px;height:80px">
 						</lord-icon></li>
-					<li><h1>Kitchen Masters</h1></li>
+					<li><h1>Kitchen<br> Masters</h1></li>
 					<li><p>Cooks in Mongolian Grill are experienced and skilled in creating diverse, flavorful, and visually appealing dishes to delight guests.</p></li>
 				</ul>
 			</div>
