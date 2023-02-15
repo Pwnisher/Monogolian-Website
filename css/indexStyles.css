@@ -534,7 +534,7 @@ h1.button-book{
 	margin: auto;
 	background-color: #f9a03f;
 	color: white;
-	font-size: 150%;
+	font-size: 110%;
 	width: 200px;
 	padding: 15px 0px;
 	border-radius: 100px;
@@ -603,18 +603,21 @@ h1.button-book:hover{
 input{
 	font-size: 20px;
 	font-family: "Lora", sans-serif;
-	margin: 15px;
 	width: 500px;
 	height: 50px;
+	padding: 5px;
+	margin: 20px auto;
 }
 
 textarea{
-	margin: 15px;
+	font-size: 16px;
+	font-family: "Lora", sans-serif;
 	width: 500px;
 	height: 200px;
+	padding: 5px;
 }
 
-h1.button-submit{
+.button-submit{
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
@@ -622,14 +625,15 @@ h1.button-submit{
 	margin: auto;
 	background-color: #f9a03f;
 	color: white;
-	font-size: 150%;
+	font-size: 120%;
 	width: 500px;
 	padding: 15px 0px;
+	border: 1px;
 	border-radius: 100px;
 	margin-top: 20px;
 }
 
-h1.button-submit:hover{
+.button-submit:hover{
 		background-color: #ebba4a;
 }
 
