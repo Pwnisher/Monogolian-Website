@@ -29,7 +29,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 					<li class="links"><a href = "#services"> Services </a></li>
 					<li class="links"><a href = "#Book"> Book</a></li>
 					<li class="links"><a href = "#contact"> Contact </a></li>
-					<li><a href = "#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+					<li><a href = "cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
 					<li>
 						<a href = "index.php">Log Out </a>
 						

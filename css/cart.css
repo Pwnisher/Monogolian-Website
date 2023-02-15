@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #FEE7AA, #F9A03F);
+}
+.container{  
+  position: absolute;
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container .title::before{
+  
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #FEE7AA, #F9A03F);
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #F9A03F;
+}
+ form .TandC-details .TandC-title{
+  font-size: 16px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-evenly;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two{
+   background: #F9A03F;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+
+ .container .menutitle{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #FEE7AA, #F9A03F);
+}
+
+ .container .menutitle{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+ }
+
+ .menudetails .options{
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 15px;  
+ }
+
+ .menudetails .menu-options{
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 15px;
+  margin-bottom: 40px;
+ }
+
+ form input[type="checkbox"]{  
+   display:inline-block;
+   appearance: none;
+   -webkit-appearance: none;
+   height: 18px;
+   width: 18px;
+   background-color:#ccc;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ form input[type="checkbox"]:after{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  font-size: 15px;
+  color: black;
+  display: none;
+ }
+
+ form input[type="checkbox"]:hover{
+  background-color: #FEE7AA;
+ }
+
+ form input[type="checkbox"]:checked{
+  background-color: #FEE7AA;
+ }
+
+ form input[type="checkbox"]:checked::after{
+  display: block;
+ }
+
+ .container {
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.container .reqname{
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align:left;
+  position: relative;
+ }
+
+.container textarea{
+  width: 100%;
+  height: 90px;
+  padding: 30px;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color:#F9A03F;
+}
+textarea:is(:focus, :valid){
+  border-width: 2px;
+  padding: 14px;
+  border-color: #F9A03F;
+}
+textarea::-webkit-scrollbar{
+  width: 0px;
+}
+
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 20px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background-color: #F9A03F;
+ }
+
+ form .button input:hover{
+  background: linear-gradient(-135deg, #FEE7AA, #F9A03F);
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  
+  .user-details, .TandC-details {
+    overflow-y: scroll;
+  }
+  
+  .user-details::-webkit-scrollbar, .TandC-details::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }  
+}
