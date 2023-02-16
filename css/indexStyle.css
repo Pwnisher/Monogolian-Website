@@ -42,9 +42,6 @@ hr.divider-light{
 
 /*--------------------------<HEADER>-----------------------*/
 
-body{
-	min-height: 200vh;
-}
 header{
 	position: fixed;
 	top: 0;
@@ -59,7 +56,6 @@ header{
 }
 
 .logo{
-	position: relative;
 	cursor: pointer;
 	width: 100px;
 	height: 60px;
@@ -77,7 +73,6 @@ header.sticky li.active a{
 }
 
 
-
 header ul {
 	position: relative;
 	display: flex;
@@ -91,6 +86,8 @@ header ul li{
 }
 
 header ul li a{
+	padding-top: 15px;
+	padding-bottom: 15px;
 	position: relative;
 	margin: 0 15px;
 	text-decoration: none;
@@ -105,8 +102,7 @@ header ul li a{
 
 .background-image{
 	position: relative;
-	width: 100%;
-	height: 100vh;
+	padding: 12rem 0rem;
 	background-image: linear-gradient(to bottom, rgba(0,0,0,.60) 0%, rgba(247, 170, 2, 0.48) 100%),url('../assets/img/picture1.jpg');
 	background-size: cover;
 	
@@ -132,11 +128,6 @@ header.sticky ul li a{
 	color: #000;
 }
 
-
-header.sticky ul li a{
-	color: #000;
-}
-
 header.sticky ul li a:hover{
 	color: #f9a03f;
 }
@@ -152,15 +143,50 @@ h1.button-login{
 h1.button-login:hover{
 	background-color: #ebba4a;
 }
+
+
+ul li ul.dropdown li{
+	display: block;
+	padding: 5px;
+}
+
+ul li ul.dropdown li a {
+	color: #000;
+}
+ul li ul.dropdown li a:hover {
+
+	color: #f9a03f;
+}
+ul li ul.dropdown{
+	border-top: 3px solid black;
+	width: 150px;
+	background: white;
+	position: absolute;
+	left: -5px;
+	top: 40px;
+	display: none;
+	text-align: center;
+}
+ul li:hover ul.dropdown{
+	display: block;
+}
+.center{
+	margin-left: -40px;
+	margin-top: 3px;
+}
+
+.bg{
+	text-align: center;
+	width: 150px;
+}
+
 /* -------------------------</HEADER>-----------------*/
 
 /* -------------------------<TOP SECTION>-----------------*/
 
 .caption-item{
 	color: #fff;
-	display: flex;
 	position: relative;
-	top: 200px;
 	justify-content: center;
 	text-align: center;
 }
@@ -186,30 +212,6 @@ h1.button-login:hover{
 }
 /*------------------*/
 
-.button{
-	cursor: pointer;
-	padding: 1.25rem 1.25rem;
-	background-color: #e6a91d;
-	font-family: "Merriweather Sans", sans-serif;
-	font-size: 0.80rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 10rem;
-    width: 180px;
-	margin-left: 230px;
-	margin-top: 50px;
-
-}
-.button a{
-	text-decoration: none;
-	color: #fff;
-}
-
-.button:hover {
-	background-color: #ebba4a;
-}
 
 
 /*-----------------------</TOP SECTION>-------------------------------*/
@@ -217,7 +219,7 @@ h1.button-login:hover{
 /*----------------------<ABOUT SECTION>------------------------------------*/
 
 .container{
-	padding: 8rem;
+	padding: 5rem 0rem;
 	background-color:#e6a91d;
 }
 
@@ -226,8 +228,8 @@ h1.button-login:hover{
 	text-align: center;
 	color: #fff;
 	display: flex;
-    padding-right: 10rem !important;
-    padding-left: 10rem !important;
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
 }
 
 .caption-item-1 ul li{
@@ -251,6 +253,7 @@ h1.button-login:hover{
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+ 
 
 .btn {
   display: inline-block;
@@ -291,15 +294,18 @@ h1.button-login:hover{
 /*------------------------ ABOUT SECOND COLOR -----------------*/
 .container-1{
 	background-color: #f2d48e;
-	padding: 8rem 10%;
-	display: inline-flex;
-	justify-content: space-between;
+	padding: 5rem;
 
 }
 .caption-item-2{
-	width: 45%;
-	height: 50%;
+	display: flex;
 }
+
+.box-modif{
+	  padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+
 .caption-item-2 h2{
 	color: #000;
 	font-size: 35px;
@@ -313,7 +319,6 @@ h1.button-login:hover{
 	font-size:18px;
 	font-weight: 400;
 	margin-top: 10px;
-	margin-bottom: 10px;
 	text-align: right;
 }
 
@@ -355,11 +360,12 @@ h1.button-login:hover{
 }
 
 .itemLabel1, .itemLabel2, .itemLabel3, .itemLabel4 {
+	text-align: center;
+	position: relative;
+	top: 30%;
+	left: 50%;
 	transition: .5s ease;
   opacity: 0;
-  position: absolute;
-  top: 80%;
-  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -421,18 +427,15 @@ h1.button-login:hover{
 /*----------------------- SERVICES SECTION --------------------------*/
 .container-2{
 	background-color: #fff;
-	padding: 8rem 10%;
-	width: 100%;
-	height: 90vh;
-	display: block;
+	padding: 5rem 0rem;
 	justify-content: center;
 	text-align: center;
 }
 
 .caption-item-3{
 	display: flex;
-	justify-content: center;
-	text-align: center;
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
 }
 
 .container-2 h1{
@@ -476,23 +479,21 @@ h1.button-login:hover{
 	font-size: 20px;
 }
 
-/*-----------------------  UNKNOWN SECTION --------------------------*/
+/*-----------------------  BOOK SECTION --------------------------*/
 .container-3{
 	background-image: url("../assets/img/wave.svg");
 	background-size: cover;
 	background-color: white;
-	padding: 5rem;
-	width: 100%;
+	padding: 5rem 0rem;
 	height: 50vh;
 }
-
-
 h1.title{
 	margin: auto;
 	text-align: center;
 	font-family: "Merriweather Sans", sans-serif;
 	font-size: 315%;
 }
+
 h1.title:hover {
 	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -525,7 +526,6 @@ h1.title:hover {
   }
 }
 
-
 h1.button-book{
 	cursor: pointer;
 	display: flex;
@@ -534,16 +534,26 @@ h1.button-book{
 	margin: auto;
 	background-color: #f9a03f;
 	color: white;
-	font-size: 110%;
+	font-size: 150%;
 	width: 200px;
 	padding: 15px 0px;
 	border-radius: 100px;
 	margin-top: 20px;
 }
 
+h1.button-book-modif{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+	font-size: 1rem;
+	padding: 20px 0px;
+	background-color: #e6a91d;
+}
+
 h1.button-book:hover{
 		background-color: #ebba4a;
 }
+
 .container-3 ul li{
 	list-style-type: none;
 }
@@ -558,7 +568,7 @@ h1.button-book:hover{
 
 
 .container-4{
-	padding: 8rem;
+	padding: 5rem 0rem;
 	background-color:#fff;
 	justify-content: center;
 	text-align: center;
@@ -569,11 +579,11 @@ h1.button-book:hover{
 	text-decoration: none;
 }
 .caption-item-4{
+    padding-right: 20rem !important;
+    padding-left: 20rem !important;
 	justify-content: center;
 	text-align: center;
 	color: #000;
-    padding-right: 15rem !important;
-    padding-left: 15rem !important;
 
 }
 
@@ -603,21 +613,22 @@ h1.button-book:hover{
 input{
 	font-size: 20px;
 	font-family: "Lora", sans-serif;
+	padding: 10px;
+	margin: 15px;
 	width: 500px;
 	height: 50px;
-	padding: 5px;
-	margin: 20px auto;
 }
 
 textarea{
 	font-size: 16px;
 	font-family: "Lora", sans-serif;
+	margin: 15px;
+	padding: 10px;
 	width: 500px;
 	height: 200px;
-	padding: 5px;
 }
 
-.button-submit{
+.button-formsubmit{
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
@@ -625,15 +636,15 @@ textarea{
 	margin: auto;
 	background-color: #f9a03f;
 	color: white;
-	font-size: 120%;
+	font-size: 150%;
 	width: 500px;
 	padding: 15px 0px;
-	border: 1px;
 	border-radius: 100px;
+	border: 1px;
 	margin-top: 20px;
 }
 
-.button-submit:hover{
+.button-formsubmit:hover{
 		background-color: #ebba4a;
 }
 
@@ -655,6 +666,73 @@ textarea{
 	width: 100%;
 	position: fixed;
 	z-index: 100;
+}
+
+@media only screen and (max-width: 1300px){
+
+.itemLabel1, .itemLabel2, .itemLabel3, .itemLabel4 {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box-modif{
+	width: 100%;
+	  padding-right: 1rem !important;
+    padding-left: 1rem !important;
+	justify-content: center;
+	align-items: center;
+}
+.caption-item-2 h2{
+	text-align: center;
+}
+
+.caption-item-2 p{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.caption-item-2{
+	width: 100%;
+	display: block;
+}
+
+
+
+}
+@media only screen and (max-width: 700px){
+
+.caption-item-3{
+	display: block;
+}
+.caption-item-4{
+	  padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+@media only screen and (max-width: 500px){
+
+h1.button-submit{
+	width: 300px;
+}
+
+input{
+	font-size: 20px;
+	font-family: "Lora", sans-serif;
+	margin: 15px;
+	width: 300px;
+	height: 50px;
+}
+
+textarea{
+	margin: 15px;
+	width: 300px;
+	height: 200px;
+}
 }
 /*
 
@@ -743,4 +821,4 @@ p{
 .slider-nav a:hover{
 	opacity: 1;
 }
-*/
+*/}

@@ -22,3 +22,5 @@
     }
     activeMenu();
     window.addEventListener("scroll" , activeMenu);
+
+/*--------------------  OBSERVER --------------------*/

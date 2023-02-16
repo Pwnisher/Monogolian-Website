@@ -611,18 +611,22 @@ h1.button-book:hover{
 input{
 	font-size: 20px;
 	font-family: "Lora", sans-serif;
+	padding: 10px;
 	margin: 15px;
 	width: 500px;
 	height: 50px;
 }
 
 textarea{
+	font-size: 16px;
+	font-family: "Lora", sans-serif;
 	margin: 15px;
+	padding: 10px;
 	width: 500px;
 	height: 200px;
 }
 
-h1.button-submit{
+.button-formsubmit{
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
@@ -634,10 +638,11 @@ h1.button-submit{
 	width: 500px;
 	padding: 15px 0px;
 	border-radius: 100px;
+	border: 1px;
 	margin-top: 20px;
 }
 
-h1.button-submit:hover{
+.button-formsubmit:hover{
 		background-color: #ebba4a;
 }
 

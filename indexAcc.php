@@ -11,7 +11,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mongolian Grill the Original</title>
 
-	<link rel="stylesheet" href="css/indexAccStyles.css">
+	<link rel="stylesheet" href="css/indexAccStyle.css">
 	<script src="https://kit.fontawesome.com/d965d128b9.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 </head>
@@ -217,15 +217,14 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 
 
             <div class="form-wrapper">
-                <form>
+                <form action="https://formspree.io/f/mgebajop" method="POST">
                 	<input class = "name" type="text" name="Fullname" placeholder = "   Full name "><br>
 					<input class = "email" type="text" name="Email" placeholder="   Email Address"><br>
 					<input class = "phone" type="text" name="Phone" placeholder="   Phone Number"><br>
-					<textarea class = "message" type="text" placeholder="   Message"></textarea>
+					<textarea class = "message" type="text" placeholder="   Message / Concerns"></textarea><br>
+					<button type="submit" class = "button button-formsubmit">SUBMIT</button>
                 </form>
             </div>
-
-            <a href="#"><h1 class = "button-submit">SUBMIT</h1></a>
 
             <p class = "footer">Copyright &copy; 2022 - Mongolian Grill The Original</p>
 	</div>

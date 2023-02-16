@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mongolian Grill the Original</title>
 
-	<link rel="stylesheet" href="css/indexStyles.css">
+	<link rel="stylesheet" href="css/indexStyle.css">
 	<script src="https://kit.fontawesome.com/d965d128b9.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 </head>
@@ -71,9 +71,6 @@
 				The Mongolian Grill the Original offers a truly one-of-a-kind culinary experience that is sure to delight the senses and satisfy even the most discerning palate.</p></li>
 			</ul>
 			</div>
-
-		
-				
 		<div class="box box-modif">
 
 		<div class="card">
@@ -205,12 +202,9 @@
 					<input class = "email" type="text" name="Email" placeholder="   Email Address"><br>
 					<input class = "phone" type="text" name="Phone" placeholder="   Phone Number"><br>
 					<textarea class = "message" type="text" placeholder="   Message / Concerns"></textarea><br>
-					<button class = "button button-submit" type="submit">SUBMIT</button>
+					<button type="submit" class = "button button-formsubmit">SUBMIT</button>
                 </form>
             </div>
-
-            
-
             <p class = "footer">Copyright &copy; 2022 - Mongolian Grill The Original</p>
 	</div>
 </section>
