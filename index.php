@@ -5,9 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mongolian Grill the Original</title>
 
-	<link rel="stylesheet" href="css/indexStyle.css">
+	<link rel="stylesheet" href="css/indexStyles.css">
 	<script src="https://kit.fontawesome.com/d965d128b9.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+	<script src="js/animation.js">
+	</script>
 </head>
 <body>
 
@@ -102,6 +104,31 @@
 		</div>
 		</div>
 	</div>
+	<div class="container-5">
+	<div class = "gallery">
+  <div class="clipped-border">
+    <img class ="g1" src="./assets/img/gal1.jpg" id="clipped">
+  </div>
+  <div class="clipped-border">
+    <img class ="g2" src="./assets/img/gal2.jpg" id="clipped">
+  </div>
+  <div class="clipped-border">
+    <img class ="g3" src="./assets/img/gal3.jpg" id="clipped">
+  </div>
+    <div class="clipped-border">
+    <img class ="g4" src="./assets/img/gal4.jpg" id="clipped">
+  </div>
+    <div class="clipped-border">
+    <img class ="g5" src="./assets/img/gal5.jpg" id="clipped">
+  </div>
+  <h1 class="galTitle">Functions</h1>
+  <lord-icon
+    src="https://cdn.lordicon.com/xxdqfhbi.json"
+    trigger="hover"
+    class="galIcon">
+</lord-icon>
+</div>
+</div>
 
 
 </section>
@@ -190,7 +217,7 @@
                         <li><h2>Let's Get In Touch</h2></li>
 						<li><hr class = "divider" /></li>
 
-                        <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, acaliquet odio mattis.</p></li>
+                        <li><p>We'd love to hear from you and learn more about your catering needs. Whether you're planning a large event or an intimate gathering, we're here to help make it a success. Get in touch with us today to see how we can make your next event unforgettable.</p></li>
                        
                 </ul>
             </div>

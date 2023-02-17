@@ -123,6 +123,31 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 		</div>
 	</div>
 
+	<div class="container-5">
+	<div class = "gallery">
+  <div class="clipped-border">
+    <img class ="g1" src="./assets/img/gal1.jpg" id="clipped">
+  </div>
+  <div class="clipped-border">
+    <img class ="g2" src="./assets/img/gal2.jpg" id="clipped">
+  </div>
+  <div class="clipped-border">
+    <img class ="g3" src="./assets/img/gal3.jpg" id="clipped">
+  </div>
+    <div class="clipped-border">
+    <img class ="g4" src="./assets/img/gal4.jpg" id="clipped">
+  </div>
+    <div class="clipped-border">
+    <img class ="g5" src="./assets/img/gal5.jpg" id="clipped">
+  </div>
+  <h1 class="galTitle">Functions</h1>
+  <lord-icon
+    src="https://cdn.lordicon.com/xxdqfhbi.json"
+    trigger="hover"
+    class="galIcon">
+</lord-icon>
+</div>
+</div>
 
 </section>
 
@@ -210,7 +235,7 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
                         <li><h2>Let's Get In Touch</h2></li>
 						<li><hr class = "divider" /></li>
 
-                        <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, acaliquet odio mattis.</p></li>
+                        <li><p>We'd love to hear from you and learn more about your catering needs. Whether you're planning a large event or an intimate gathering, we're here to help make it a success. Get in touch with us today to see how we can make your next event unforgettable.</p></li>
                        
                 </ul>
             </div>
