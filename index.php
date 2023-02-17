@@ -197,12 +197,12 @@
 	</div>
 </section>
 <br>
-<!--------------------------- UNKNOWN SECTION  ---------------------------->
+<!--------------------------- BOOK SECTION  ---------------------------->
 <section id="Book">
 		<div class="container-3">
 			<ul>
 				<li><h1 class="title"> Start Your Reservation! </h1></li>
-				<li><a href="#"><h1 class = "button-book">BOOK NOW!</h1></a></li>
+				<li><a href="cart.php"><h1 class = "button-book">BOOK NOW!</h1></a></li>
 			</ul>
 		</div>
 </section>
