@@ -1,0 +1,138 @@
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+	z-index: 100000;
+    background-color:#f9a03f;
+}
+
+.logo{
+	cursor: pointer;
+	width: 100px;
+	height: 60px;
+	transition: 0.6s;
+}
+
+header.sticky{
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+	padding: 5px 100px;
+	background: #fff;
+}
+
+header.sticky li.active a{
+	color: #f9a03f;
+}
+
+
+header ul {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li{
+	position: relative;
+	list-style: none;
+}
+
+header ul li a{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: black;
+	transition: 0.5s ;
+
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.background-image{
+	position: relative;
+	padding: 11rem 0rem;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.60) 0%, rgba(247, 170, 2, 0.48) 100%),url('../assets/img/picture1.jpg');
+	background-size: cover;
+	
+}
+
+header li a:hover{
+	color: #f9a03f;
+}
+
+header .fa-solid{
+	font-size: 25px;
+}
+
+header .fa-solid {
+	color: #f9a03f;
+}
+
+header .fa-solid:hover{
+	color: #fee7aa;
+}
+
+header.sticky ul li a{
+	color: #000;
+}
+
+header.sticky ul li a:hover{
+	color: #f9a03f;
+}
+
+h1.button-login{
+	background-color: #f9a03f;
+	color: white;
+	font-size: 16px;
+	padding: 5px 15px;
+	border-radius: 20px;
+}
+
+h1.button-login:hover{
+	background-color: #ebba4a;
+}
+
+
+ul li ul.dropdown li{
+	display: block;
+	padding: 5px;
+}
+
+ul li ul.dropdown li a {
+	color: #000;
+}
+ul li ul.dropdown li a:hover {
+
+	color: #f9a03f;
+}
+ul li ul.dropdown{
+	border-top: 3px solid black;
+	width: 150px;
+	background: white;
+	position: absolute;
+	left: -5px;
+	top: 40px;
+	display: none;
+	text-align: center;
+}
+ul li:hover ul.dropdown{
+	display: block;
+}
+.center{
+	margin-left: -40px;
+	margin-top: 3px;
+}
+
+.bg{
+	text-align: center;
+	width: 150px;
+}
