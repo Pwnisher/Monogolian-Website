@@ -24,7 +24,7 @@ function insert(){
   $time = $_POST["time"];
 
   if($name != "" && $address != "" && $contact != ""  && $pax != "" && $date != "" && $time != ""){
-  $query = "INSERT INTO cartform VALUES('', '$name', '$address', '$contact', '$pax', '$date', '$time')";
+  $query = "INSERT INTO cartform VALUES('', '$name', '$address', '$contact', '$pax', '$date', '$time','')";
   mysqli_query($conn, $query);
   echo "Inserted Successfully";
   }

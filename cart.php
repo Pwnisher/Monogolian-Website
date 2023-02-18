@@ -157,17 +157,6 @@ $result2 = mysqli_query($conn,$query2);
 
   <?php require 'script.php'; 
   ?>
-  <script type="text/javascript">
-function handleClick(myRadio) {
-  if(myRadio.value== "true")
-  {
-  document.getElementById("ddlProject").disabled = false;
-  }
-  else
-  {
-  document.getElementById("ddlProject").disabled = true;
-  }
-}
 </script>
 </body>
 </html>

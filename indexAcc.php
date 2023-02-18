@@ -39,7 +39,6 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 					<li class = "bg"><a href="#"><?php echo $_SESSION['fname']; ?></a>
 						<ul class="dropdown">
 							<li><a href="index.php">logout</a></li>
-							<li><a href="">profile</a></li>
 						</ul>
 					</li>
 			</ul>

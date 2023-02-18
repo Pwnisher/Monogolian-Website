@@ -42,9 +42,21 @@ $sql = mysqli_query($conn,"SELECT * from cartform");
 	
 	<!-- Internal CSS -->
 	<style>
-		#btnAdd {
-			color:red
-		}
+	button.button{
+		border-radius: 5px;
+		border: none;
+		padding: 10px;
+		background: red;
+		margin: 5px;
+	}
+	button.button a{
+      text-decoration: none;
+      color: white;
+     }
+
+     button.button:hover{
+      background: grey;
+     }
 	</style>
 	
 	
@@ -71,6 +83,7 @@ $sql = mysqli_query($conn,"SELECT * from cartform");
 			</thead>
 			<tbody>
 
+				<button class ="button" type = "button"><a href="indexlg.php">Logout</a></button>
 
 			<?php
 			 require 'connection.php';
@@ -123,7 +136,7 @@ $sql = mysqli_query($conn,"SELECT * from cartform");
 		function status_update(value,cartID)
 		{
 			//alert(cartID);
-			let url = "https://localhost/website/fetch_data.php";
+			let url = "https://localhost/Monogolian-Website/fetch_data.php";
 			window.location.href= url+"?cartID="+cartID+"&status="+value;
 		}
 
