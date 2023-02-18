@@ -30,10 +30,10 @@ if (isset($_SESSION['logID']) && isset($_SESSION['uname'])) {
 					<li class="links"><a href="#services">Service</a></li>
 					<li class="links"><a href = "#Book"> Book</a></li>
 					<li class="links"><a href="#contact">Contact</a></li>
-					<li class="links"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+					<li class="links"><a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
 						<ul class="dropdown center">
-							<li><a href="#">Reservation</a></li>
-							<li><a href="#">Update</a></li>
+							<li>Reservation</li>
+							<li><a href="cartUpdate.php">Update</a></li>
 						</ul>
 					</li>
 					<li class = "bg"><a href="#"><?php echo $_SESSION['fname']; ?></a>

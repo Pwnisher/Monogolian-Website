@@ -1,9 +1,3 @@
-<?php
+<?php $conn = mysqli_connect("localhost", "root", "", "logs_db"); 
 
-	$dbhost = 'localhost';
-	$dbusername = 'root';
-	$dbpassword = '';
-	$dbname = 'admin';
-
-	$connection = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbname);
 ?>
