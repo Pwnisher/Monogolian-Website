@@ -16,20 +16,24 @@ if(isset($_POST["action"])){
 function insert(){
   global $conn;
 
+  $logID = $_POST["logID"];
   $name = $_POST["name"];
   $address = $_POST["address"];
   $contact = $_POST["contact"];
   $pax = $_POST["pax"];
   $date = $_POST["date"];
   $time = $_POST["time"];
+  $status = $_POST['status'] = 1;
 
   if($name != "" && $address != "" && $contact != ""  && $pax != "" && $date != "" && $time != ""){
-  $query = "INSERT INTO cartform VALUES('', '$name', '$address', '$contact', '$pax', '$date', '$time','')";
+  $query = "INSERT INTO cartform VALUES('','$logID','$name', '$address', '$contact', '$pax', '$date', '$time','$status')";
+  
   mysqli_query($conn, $query);
   echo "Inserted Successfully";
   }
   else{
     echo "please fill all the fields";
+
   }
 
   }

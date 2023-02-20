@@ -1,37 +1,20 @@
-
 <?php
-include 'connection.php';
+	include 'connection.php';
+
+    $query =  "SELECT * FROM cartform WHERE logID = '".$_POST['logID']."' ";
+
+	$result = mysqli_query($connection, $query);
+
+	$empRecord_array = array();
+	while($row = mysqli_fetch_assoc($result))
+	{
+		$empRecord_array[] = $row;
+	}
+
+	header('Content-type: application/json');
+	echo json_encode($empRecord_array);
+
+	//closing the connection
+
+	mysqli_close($connection);
 ?>
-
-
-<table id="customer-table" class="table table-responsive table-hover table-bordered table-dark">
-			<thead>
-				<th>reservation id</th>
-				<th>Name</th>
-				<th>Contact</th>
-				<th>Email</th>
-				<th>Delete</th>
-			</thead>
-			<tbody>
-
-
-			<?php
-			 require 'connection.php';
-		      $rows = mysqli_query($conn, "SELECT * FROM cartform");
-		      $i = 1;
-		      ?>
-		      <?php foreach($rows as $row) : ?>
-		      <tr id = <?php echo $row["cartID"]; ?>>
-			        <td><?php echo $i++; ?></td>
-			        <td><?php echo $row["name"]; ?></td>
-			        <td><?php echo $row["email"]; ?></td>
-			        <td><?php echo $row["cont"]; ?></td>
-			        <td>
-			          <button type="button" onclick = "submitData(<?php echo $row['cartID']; ?>);">Delete</button>
-			        </td>
-				</tr>		
-				<?php endforeach; ?>
-			</tbody>
-
-		</table>
-		<?php require 'script.php'; ?>	

@@ -1,0 +1,203 @@
+		th{
+			width: 200px;
+		}
+	button.button{
+		border-radius: 5px;
+		border: none;
+		padding: 10px;
+		background: red;
+		margin: 5px;
+		margin-left: 10px ;
+	}
+	button.button a{
+      text-decoration: none;
+      color: white;
+     }
+
+     button.button:hover{
+      background: grey;
+     }
+     .modal .modal-content{
+     	width: 900px;
+     	margin-left: -200px ;
+     }
+
+
+     button.button1{
+		border-radius: 5px;
+		border: none;
+		padding: 10px;
+		background: blue;
+		margin: 5px;
+		margin-left: 50px ;
+	}
+	button.button1 a{
+      text-decoration: none;
+      color: white;
+     }
+
+     button.button1:hover{
+      background: grey;
+     }
+
+     button.button2{
+		border-radius: 5px;
+		border: none;
+		padding: 10px;
+		background: green;
+		margin: 5px;
+		margin-left: 10px ;
+	}
+	button.button2 a{
+      text-decoration: none;
+      color: white;
+     }
+
+     button.button2:hover{
+      background: grey;
+     }
+
+     button.button3{
+		border-radius: 5px;
+		border: none;
+		padding: 10px;
+		background: red;
+		margin: 5px;
+	}
+	button.button3 a{
+      text-decoration: none;
+      color: white;
+     }
+
+     button.button3:hover{
+      background: grey;
+     }
+     .modal .modal-content{
+     	width: 900px;
+     	margin-left: -200px ;
+     }
+     div.container2 {
+     	overflow: scroll;
+     	overflow-y: scroll;
+
+     	padding: 50px;
+     	height: 450px;
+     }
+     .container3 {
+     	width: 870px;
+     }
+
+     h2, h3, h4{
+     	color: white;
+     }
+     .card{
+     	height: 150px;
+     }
+     .container{
+     	padding-top: 90px;
+     }
+
+
+
+    body{
+       
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: url("../assets/img/waves.svg");
+    background-size: cover;
+    background-color: #fff2cf; /* #fafafa */
+    height: 120vh;
+    }
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 10px 100px;
+	background: #f9a03f;
+}
+
+.logo{
+	cursor: pointer;
+	width: 100px;
+	height: 60px;
+	transition: 0.6s;
+}
+
+header.sticky{
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+	padding: 5px 100px;
+	background: #fff;
+}
+
+header.sticky li.active a{
+	color: #f9a03f;
+}
+
+
+header ul {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li{
+	position: relative;
+	list-style: none;
+}
+
+header ul li a{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: white;
+	transition: 0.5s ;
+
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+header li a:hover{
+	color: #000;
+	list-style: none;
+}
+
+
+
+ul li ul.dropdown li{
+	display: block;
+}
+
+ul li ul.dropdown li a {
+	color: #000;
+}
+ul li ul.dropdown li a:hover {
+
+	color: #f9a03f;
+}
+ul li ul.dropdown{
+	border-top: 3px solid black;
+	width: 140px;
+	background: white;
+	position: absolute;
+	left: -30px;
+	top: 40px;
+	display: none;
+}
+ul li:hover ul.dropdown{
+	display: block;
+}

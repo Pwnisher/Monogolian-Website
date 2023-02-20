@@ -40,6 +40,11 @@ $result2 = mysqli_query($conn,$query2);
         <div class="user-details">
 
           <div class="input-box">
+            <select hidden>
+              <option type="text" id="logID"><?php echo $_SESSION['logID']?></option>
+            </select>
+          </div>
+          <div class="input-box">
             <br>
             <span class="details">Client Name :</span>
               <input type="text" id="name" value="" required> <br>

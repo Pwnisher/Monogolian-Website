@@ -1,3 +1,14 @@
+<?php
+session_start();
+require 'connection.php';
+
+$query = "SELECT * FROM registration";
+
+$query2 = "SELECT * FROM cartform";
+
+$result = mysqli_query($conn,$query);
+$result2 = mysqli_query($conn,$query2);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,6 +32,7 @@
      		<p class="success"><?php echo $_GET['success']; ?></p>
      	<?php } ?>
 
+     	
 		<!-- FIRST NAME-->
      	<?php if (isset($_GET['fname'])) { ?>
      			<input type="text" 

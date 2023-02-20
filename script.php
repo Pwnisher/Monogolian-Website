@@ -5,14 +5,14 @@
     $(document).ready(function(){
       var data = {
         action: action,
+        cartID: $("#cartID").val(),
+        logID: $("#logID").val(),
         name: $("#name").val(),
         address: $("#address").val(),
         contact: $("#contact").val(),
         pax: $("#pax").val(),
         date: $("#date").val(),
         time: $("#time").val(),
-        status: $("#status").val(),
-
       };
 
       $.ajax({
