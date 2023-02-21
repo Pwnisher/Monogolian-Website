@@ -91,7 +91,7 @@ $sql = mysqli_query($conn,"SELECT * from cartform");
              require 'connection.php';
 
 
-              $query =  "SELECT * FROM cartform WHERE logID = '".$_SESSION['logID']."' ";
+              $query =  "SELECT * FROM cartform WHERE logID = '".$_SESSION['logID']."' ORDER BY status DESC";
               $rows = mysqli_query($conn,$query);
               $i = 1;
               ?>
