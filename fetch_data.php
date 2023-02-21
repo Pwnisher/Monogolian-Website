@@ -211,7 +211,7 @@ $sql = mysqli_query($conn,"SELECT * from cartform");
 				  <div class="modal-dialog">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				        <h5 class="modal-title" id="exampleModalLabel">Accepted</h5>
 				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				      </div>
 				      <div class="modal-body">
@@ -294,7 +294,7 @@ $sql = mysqli_query($conn,"SELECT * from cartform");
 				  <div class="modal-dialog">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+				        <h5 class="modal-title" id="exampleModalLabel">Rejected</h5>
 				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				      </div>
 				      <div class="modal-body"><div class="container2">

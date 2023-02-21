@@ -1,0 +1,14 @@
+#m_footer2 p{
+	position: relative;
+	bottom: -243px;
+	margin-top: 14px;
+	background: #212529;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	overflow: hidden;
+}
+h1{
+	margin-bottom: 20px;
+	font-family: sans-serif;
+}

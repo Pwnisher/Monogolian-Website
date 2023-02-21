@@ -1,0 +1,12 @@
+<?php
+	
+	$dbhost = 'localhost';
+	$dbusername = 'root';
+	$dbpassword = '';
+	$dbname = 'logs_db';
+
+	$connection = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbname);
+
+
+
+?>
